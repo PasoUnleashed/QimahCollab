@@ -14,7 +14,8 @@ public class QimahCollab {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        TextGenerator t1 = new QimahGenerator();
+        System.out.println(t1.generateText());
     }
     
 }
