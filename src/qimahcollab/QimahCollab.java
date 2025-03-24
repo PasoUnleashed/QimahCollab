@@ -15,7 +15,9 @@ public class QimahCollab {
      */
     public static void main(String[] args) {
         TextGenerator t1 = new QimahGenerator();
+        TextGenerator t2 = new OsamaGenerator();
         System.out.println(t1.generateText());
+        System.out.println(t2.generateText());
     }
     
 }
