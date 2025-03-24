@@ -17,7 +17,7 @@ public class QimahCollab {
         TextGenerator t1 = new QimahGenerator();
         TextGenerator t2 = new FaisalsGenerator();
         TextGenerator t3 = new OsamaGenerator();    
-      
+        System.out.println("===============");
         System.out.println(t1.generateText());
         System.out.println(t2.generateText());
         System.out.println(t3.generateText());
